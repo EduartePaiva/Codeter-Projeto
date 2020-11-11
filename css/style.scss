@@ -1,0 +1,191 @@
+$cor-verde1: #1faa89;
+$cor-verde2: #62d2a2;
+$cor-verde3: #9df3c4;
+$cor-verde4: #d8fae9;
+$preto: #000;
+
+
+html{
+    font-family: Helvetica, sans-serif, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgba(245, 255, 250, 0.5);
+}
+
+.class-header{
+    .logomarca{
+        background-color: $cor-verde4;
+        text-align: center;
+        font-size: 500%;
+        //padding-top: 30px;
+        //padding-bottom: 50px;
+        height: 250px;    
+        line-height: 350px;    
+        font-weight: bold;
+        margin-bottom: 0;        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;           /* establish flex container */
+        flex-direction: column;  /* make main axis vertical */
+        justify-content: center; /* center items vertically, in this case */
+        align-items: center; 
+        img{            
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }    
+}
+
+.site-footer{
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $cor-verde4;   
+
+}
+
+.main-area{
+    min-height: 54%;
+}
+.redes-sociais{
+    font-size: 150%;
+    display: flex;
+
+    i{
+        flex: 1;
+        text-align: left;
+    }   
+    
+}
+
+.footer-copy{
+    text-align: center;
+}
+
+.navbar-2{
+    background-color: $cor-verde1;   
+    .navbar-nav{
+        a{
+            font-size: 120%;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);      
+        }
+        .nav-item{
+            a:hover{
+            }
+        }
+        
+    }
+
+    .d-flex{
+        margin-bottom: 0;
+
+    }
+}
+
+/*
+.menu-inicial{
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+            list-style: none;
+            background-color: rgb(62, 129, 62);            
+            flex: 1;
+            text-align: center;
+            height: 40px;  
+            position: relative;
+    
+            a{   
+                display: block;           
+                //color: rgb(14, 87, 14);
+                color: #000;
+                text-decoration: none;                
+                font-weight: bold;              
+                width: 100%;
+                height: 100%;   
+                position: absolute;   
+                top: 25%;      
+                margin: 0;
+                white-space: nowrap;
+            }
+    
+            
+    
+        }
+        li:hover{
+            background-color: rgb(14, 87, 14);
+            a{
+                color:palegreen;
+            }
+        }
+
+    }   
+    
+}
+*/
+
+.preto{
+    padding-top: 80px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 180%;
+        color: $preto;
+        //text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.452);   
+
+    }
+    .noticias{       
+        //background-color: $cor-verde3;
+        
+
+
+        .noticia-col{            
+            min-height: 200px;  
+            min-width: 250px;    
+            margin: 10px 10px; 
+            display: flex; 
+            justify-content: center;
+            .content-da-caixa{
+                background-color: $cor-verde3;
+                padding: 5px 5px;
+                display:flex;
+                flex-direction: column;
+                p{
+                    flex: 1;
+                }
+            }
+            .imagem-container{
+                flex: 6;
+                width: 250px;
+                height: 150px;
+                overflow: hidden;
+                position: relative;
+                               
+                img{
+                    
+                    display: block;
+                    position: absolute;
+                    top: -9999px;
+                    bottom: -9999px;
+                    left: -9999px;
+                    right: -9999px;
+                    margin: auto;                  
+                }
+            }
+        }
+    }
+    a:hover{
+        color: rgba(0,0,0,0.8);
+        color: #1faa89;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+}
+.branco{
+    margin-top: 50px;
+}
