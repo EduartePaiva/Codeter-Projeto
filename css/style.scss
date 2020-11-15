@@ -8,6 +8,7 @@ $preto: #000;
 
 html{
     font-family: Helvetica, sans-serif, 'Times New Roman', Times, serif;
+    font-family: "Montserrat",sans-serif;
 }
 
 body{
@@ -109,9 +110,7 @@ body{
 
 }
 
-.main-area{
-    min-height: 54%;
-}
+
 .redes-sociais{
     font-size: 150%;
     display: flex;
@@ -128,7 +127,75 @@ body{
 }
 
 
+.cabecalho-noticias{
+    margin-top: 60px;    
+    text-align: center;  
+    a{
+        text-decoration: none;
+        color: $preto;
+        font-size: 30px; 
+        font-weight: bold;   
+        color: $cor-verde1; 
+    }
+    hr{
+        color: $cor-verde1;
+        height: 5px;
+    }
+}
 
+
+.noticias{
+    padding: 0;
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    //align-items: center;
+
+
+    li{
+       width: 250px;
+
+
+        .caixa-img{                        
+            margin-right: 0;
+            width: 250px;
+            height: 200px;
+            
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+
+        .titulo{
+            font-size: 20px;
+            font-weight: bold;
+            color: $cor-verde2;
+            text-decoration: none;
+        }
+        .conteudo{
+            font-size: 16px;
+        }
+
+        .data-public{
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        
+
+
+        
+    }
+}
+
+
+
+
+/*
 .preto{
     padding-top: 80px;
     text-align: center;
@@ -148,8 +215,8 @@ body{
 
         .noticia-col{            
             min-height: 200px;  
-            min-width: 250px;    
-            margin: 10px 10px; 
+            min-width: 250px;  
+            margin: 5px 5px; 
             display: flex; 
             justify-content: center;
             .content-da-caixa{
@@ -190,3 +257,5 @@ body{
 .branco{
     margin-top: 50px;
 }
+
+*/
