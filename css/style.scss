@@ -102,6 +102,33 @@ body{
     }
 }
 
+.flex-carrocel{
+    margin-top: 60px;
+    //display: flex;
+    //flex-wrap: wrap;
+
+
+    
+    p{
+       //width: 1000px;
+        //flex: 1;
+    }
+    .carousel{
+        //flex: 2;
+    }
+    .carousel-item{
+        img{
+           height: 300px;
+           object-fit: cover;
+        }
+    }
+}
+
+
+
+
+
+
 .site-footer{
     min-height: 100px;
     padding-top: 20px;

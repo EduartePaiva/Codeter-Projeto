@@ -43,10 +43,53 @@
 
     <main role="main">
         <div class="container">
-            <div class="cabecalho-noticias">
-                <a href="#">NOTÍCIAS</a>
-                <hr>
+            <div class="flex-carrocel row">  
+                <p class="col-md-4">Logos aqui</p>              
+                    <!--Carrocel-->
+                <div id="carouselExampleIndicators" class="carousel slide col-md-8" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagens/img1.jpg" class="d-block w-100 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagens/img2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagens/img3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>                
+                
+
+                 
+
             </div>
+
+            
+
+
+
+
+
+
+
+            <div class="cabecalho-noticias">
+                <a href="#">ÚLTIMAS NOTÍCIAS</a>
+                <hr>
+            </div>           
 
             
             <ul class="noticias">                
@@ -86,61 +129,6 @@
         </div>
 
 
-
-        <!--
-        <div class="container main-area">
-            <div class="row justify-content-between">
-                <div class="col-sm col-md-12 preto">
-                    <a href="#">NOTÍCIAS</a>
-                    <div class="noticias row justify-content-between">
-                        <div class="noticia-col col">
-                            <div class="content-da-caixa">
-                                <div class="imagem-container">
-                                    <img clas="" src="imagens/img1.jpg" alt="">
-                                </div>
-                                <p>NOTÍCIA 1</p>
-                            </div>
-                                                       
-                        </div>
-                        <div class="noticia-col col">
-                            <div class="content-da-caixa">
-                                <div class="imagem-container">
-                                    <img clas="" src="imagens/img2.jpg" alt="">
-                                </div>
-                                <p>NOTÍCIA 2</p>
-                            </div>
-                        </div>
-                        <div class="noticia-col col">
-                            <div class="content-da-caixa">
-                                <div class="imagem-container">
-                                    <img clas="" src="imagens/img3.jpg" alt="">
-                                </div>
-                                <p>NOTÍCIA 3</p>
-                            </div>
-                        </div>
-                        <div class="noticia-col col">
-                            <div class="content-da-caixa">
-                                <div class="imagem-container">
-                                    <img clas="" src="imagens/img4.jpg" alt="">
-                                </div>
-                                <p>NOTÍCIA 4</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm col-md-12 preto">
-                    <a href="#">AGENDA</a>
-                    <ul>
-                        <li>AGENDA 1</li>
-                        <li>AGENDA 1</li>
-                        <li>AGENDA 1</li>
-                        <li>AGENDA 1</li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    -->
     </main>
     
     <footer>
@@ -158,7 +146,7 @@
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-instagram-square"></i>
                     </div>
-                    <samp class="footer-copy text-muted">&copy; CODEETER IRECÊ. Todos Os Direitos Reservados.</samp>
+                    <samp class="footer-copy text-muted">&copy; CODETER IRECÊ. Todos Os Direitos Reservados.</samp>
                 </div>
             </div>
             
