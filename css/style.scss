@@ -102,6 +102,36 @@ body{
     }
 }
 
+.logomarcas{
+    display: flex;
+    //flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
+    .imga{
+        height: 60px;
+        //width: 300px;
+        //max-width: 300px;
+        object-fit: contain;
+        margin: 10px 10px;
+        padding: 5px 5px;
+        background-color: $cor-verde4;
+        border-radius: 20px;
+    }
+
+    .imgb{
+        height: 110px;
+        //width: 300px;
+        //max-width: 300px;
+        object-fit: contain;
+        margin: 10px 10px;
+        padding: 5px 5px;
+        background-color: $cor-verde4;
+        border-radius: 20px;
+    }
+}
+
 .flex-carrocel{
     margin-top: 60px;
     //display: flex;

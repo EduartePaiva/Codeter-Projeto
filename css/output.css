@@ -83,6 +83,28 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+.logomarcas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logomarcas .imga {
+  height: 60px;
+  object-fit: contain;
+  margin: 10px 10px;
+  padding: 5px 5px;
+  background-color: #d8fae9;
+  border-radius: 20px;
+}
+.logomarcas .imgb {
+  height: 110px;
+  object-fit: contain;
+  margin: 10px 10px;
+  padding: 5px 5px;
+  background-color: #d8fae9;
+  border-radius: 20px;
+}
+
 .flex-carrocel {
   margin-top: 60px;
 }
