@@ -103,32 +103,62 @@ body{
 }
 
 .logomarcas{
-    display: flex;
-    //flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-  
+    .cabecalho-logomarcas{ 
+        text-align: center;  
+        a{
+            text-decoration: none;
+            color: $preto;
+            font-size: 30px; 
+            font-weight: bold;   
+            color: $cor-verde1; 
+        }
+        hr{
+            color: $cor-verde1;
+            height: 5px;
+        }
+    }
 
-    .imga{
-        height: 60px;
-        //width: 300px;
-        //max-width: 300px;
-        object-fit: contain;
-        margin: 10px 10px;
-        padding: 5px 5px;
+    img{
         background-color: $cor-verde4;
-        border-radius: 20px;
+        width: 100%;
+    }
+    .imga{        
+        img{
+            height: 60px;
+            //max-width: 300px;
+            object-fit: contain;
+            margin-bottom: 10px;
+            //margin: 10px 10px;
+            padding: 5px 5px;
+            //background-color: $cor-verde4;
+            border-radius: 10px;
+
+        }
     }
 
     .imgb{
-        height: 110px;
-        //width: 300px;
-        //max-width: 300px;
-        object-fit: contain;
-        margin: 10px 10px;
-        padding: 5px 5px;
-        background-color: $cor-verde4;
-        border-radius: 20px;
+        .ifba{
+            display: flex;
+            justify-content: center;
+
+            img{
+                margin-left: 10px;
+            }
+            img:first-child{
+                margin-left: 0;
+            }
+        }
+        img{
+
+            height: 110px;
+            //max-width: 300px;
+            object-fit: contain;
+            margin-bottom: 10px;
+            //margin: 10px 10px;
+            padding: 5px 5px;            
+            border-radius: 10px;
+
+        }
     }
 }
 
