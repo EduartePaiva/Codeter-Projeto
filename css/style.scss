@@ -1,7 +1,17 @@
+//Paleta de cores verde original
+
 $cor-verde1: #1faa89;
 $cor-verde2: #62d2a2;
 $cor-verde3: #9df3c4;
 $cor-verde4: #d8fae9;
+
+
+//cores verde 2
+$cor-verde1: #6a7458;
+$cor-verde4: #49f783;
+
+
+
 $preto: #000;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
@@ -263,7 +273,7 @@ body{
         .titulo{
             font-size: 20px;
             font-weight: bold;
-            color: $cor-verde2;
+            color: $cor-verde1;
             text-decoration: none;
         }
         .conteudo{
